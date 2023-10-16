@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <video class="video" autoplay loop muted>
+            <source src="images/bg.mp4" type="video/mp4">
+        </video>
+
+        <div class="ball_container container">
+            <div class="ball">
+                <img class="ball_img" src="images/ball.png" alt="ball">
+                <div class="cloud"><p></p></div>
+                <img class="left_hand hand" src="images/left_hand.png" alt="hand">
+                <img class="right_hand hand" src="images/right_hand.png" alt="hand">
+                <div class="info">
+                    <div class="text">Click the button to get a free forecast</div>
+                    <div class="buttons">
+                        <img onclick="startGame()" class="start_btn btn" src="images/start_btn.png" alt="btn">
+                        <img onclick="continueGame()" class="one_more_btn btn" src="images/one_more_btn.png" alt="btn">
+                        <a href="http://georgioarseniy.in.net/"><img class="get_bonus_btn btn" src="images/get_bonus_btn.png" alt="btn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
